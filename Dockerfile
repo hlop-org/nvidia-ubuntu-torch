@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.3.2-runtime-ubuntu22.04
+FROM nvidia/cuda:13.1.0-runtime-ubuntu24.04
 
 # Copy the current directory contents into the container at /app
 COPY requirements.txt .
